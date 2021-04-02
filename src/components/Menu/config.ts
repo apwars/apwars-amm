@@ -1,10 +1,13 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from '@pancakeswap-libs/uikit';
+
+const APWARS_URL = process.env.REACT_APP_APWARS_URL;
+
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: `${APWARS_URL}`,
   },
   {
     label: 'Trade',
@@ -13,28 +16,46 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: '/swap',
       },
       {
         label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
+        href: '/pool',
+      },
+    ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: `${APWARS_URL}/farms`,
+    items: [
+      {
+        label: 'Gold Mine',
+        href: `${APWARS_URL}/farms/tier/0`,
+      },
+      {
+        label: 'Barracks',
+        href: `${APWARS_URL}/farms/tier/1`,
+      },
+      {
+        label: 'Armory',
+        href: `${APWARS_URL}/farms/tier/2`,
+      },
+      {
+        label: 'Arcane Library',
+        href: `${APWARS_URL}/farms/tier/3`,
+      },
+    ],
   },
   {
     label: 'Nests',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: `${APWARS_URL}/nests`,
   },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
+  //   href: `${APWARS_URL}/lotter`'
   // },
   {
     label: 'Info',
@@ -56,35 +77,36 @@ const config: MenuEntry[] = [
         label: 'AstroTools',
         href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
       },
-    ]
+    ],
   },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        href: 'https://github.com/apwars/',
       },
       {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        label: 'Docs',
+        href: 'https://goosedefi.gitbook.io/goose-finance/',
       },
       {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        label: 'Blog',
+        href: 'https://goosefinance.medium.com/',
       },
     ],
   },
   {
     label: 'Partnerships/IFO',
     icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+    href:
+      'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
   },
   {
     label: 'Audit by Hacken',
     icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+    href: `${APWARS_URL}/files/hackenAudit.pdf`,
   },
   {
     label: 'Audit by CertiK',
