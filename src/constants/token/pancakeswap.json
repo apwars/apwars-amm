@@ -11,6 +11,15 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "wGold Token",
+      "symbol": "wGold",
+      "address": "0xEedbED4971DCe09D692759390Ed787213Db49e95",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/egg/9.png"
+
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
