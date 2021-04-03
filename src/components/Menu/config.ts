@@ -47,11 +47,11 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Nests',
-    icon: 'PoolIcon',
-    href: `${APWARS_URL}/nests`,
-  },
+  // {
+  //   label: 'Nests',
+  //   icon: 'PoolIcon',
+  //   href: `${APWARS_URL}/nests`,
+  // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
@@ -97,19 +97,19 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  // {
+  //   label: 'Partnerships/IFO',
+  //   icon: 'GooseIcon',
+  //   href:
+  //     'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+  // },
   {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href:
-      'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
+    label: 'Audit by Hacken (Goose Finance)',
     icon: 'AuditIcon',
-    href: `${APWARS_URL}/files/hackenAudit.pdf`,
+    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
   },
   {
-    label: 'Audit by CertiK',
+    label: 'Audit by CertiK (Goose Finance)',
     icon: 'AuditIcon',
     href: 'https://certik.org/projects/goose-finance',
   },
