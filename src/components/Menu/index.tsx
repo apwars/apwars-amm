@@ -17,7 +17,7 @@ const Menu: React.FC = props => {
   return (
     <UikitMenu
       links={links}
-      priceLink="https://www.coingecko.com/en/coins/goose-finance"
+      priceLink="https://exchange.apwars.farm/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x7ab6eedd9443e0e98e5ea93667ca5b250b8dda51"
       account={account as string}
       login={(connectorId: ConnectorId) => {
         if (connectorId === 'walletconnect') {
