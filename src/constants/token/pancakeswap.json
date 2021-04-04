@@ -13,11 +13,18 @@
     {
       "name": "wGold Token",
       "symbol": "wGold",
-      "address": "0xEedbED4971DCe09D692759390Ed787213Db49e95",
+      "address": "0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "http://exchange.apwars.farm/images/egg/9.png"
 
+    },
+    {
+      "name": "Goose Golden Egg",
+      "symbol": "EGG",
+      "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
+      "chainId": 56,
+      "decimals": 18
     },
     {
       "name": "WBNB Token",
