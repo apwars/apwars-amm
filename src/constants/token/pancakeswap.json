@@ -25,7 +25,7 @@
       "address": "0x54f653f539a78d3db0e0d3b166cf32c4f6cc5fb6",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://exchange.apwars.farm/images/apwars/warrior-wgold.png"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wwarrior-wgold.png"
 
     },
     {
@@ -43,7 +43,7 @@
       "address": "0xd7544Fe7668f3dfb7AD21F9E02D7A51e116b6D75",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://exchange.apwars.farm/images/apwars/warcher-wgold.png"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wgrunt-wgold.png"
 
     },
     {
@@ -52,7 +52,7 @@
       "address": "0x934e11a44b2e817fe9bd6f337ef21bd35e46080e",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://exchange.apwars.farm/images/apwars/warcher-wgold.png"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/worc-archer-wgold.png"
 
     },
     {
