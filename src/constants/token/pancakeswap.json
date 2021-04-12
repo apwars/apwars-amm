@@ -11,12 +11,48 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "wGold Token",
-      "symbol": "wGold",
+      "name": "wGOLD Token",
+      "symbol": "wGOLD",
       "address": "0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "http://exchange.apwars.farm/images/egg/9.png"
+
+    },
+    {
+      "name": "wARRIOR Token",
+      "symbol": "wWARRIOR",
+      "address": "0x54f653f539a78d3db0e0d3b166cf32c4f6cc5fb6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warrior-wgold.png"
+
+    },
+    {
+      "name": "wARCHER Token",
+      "symbol": "wARCHER",
+      "address": "0xAA2E03E7838148ce9FAd6Ce4C00275D89127A03e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warcher-wgold.png"
+
+    },
+    {
+      "name": "wGRUNT Token",
+      "symbol": "wGRUNT",
+      "address": "0xd7544Fe7668f3dfb7AD21F9E02D7A51e116b6D75",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warcher-wgold.png"
+
+    },
+    {
+      "name": "wORC-ARCHER Token",
+      "symbol": "wORC-ARCHER",
+      "address": "0x934e11a44b2e817fe9bd6f337ef21bd35e46080e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warcher-wgold.png"
 
     },
     {
