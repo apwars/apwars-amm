@@ -56,6 +56,39 @@
 
     },
     {
+      "name": "wARMORED-WARRIOR Token",
+      "symbol": "wARMORED-WARRIOR",
+      "address": "0xd67761df2b76ee251d48816691f5ff7728d94daa",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warmored-warrior-wgold.png"
+
+    },
+    {
+      "name": "wCROSSBOW-MAN Token",
+      "symbol": "wCROSSBOW-MAN",
+      "address": "0xa0ecf9c7114effb43440b95d54e09a2a67331236",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wcrossbowman-wgold.png"
+    },
+    {
+      "name": "wARMORED-GRUNT Token",
+      "symbol": "wARMORED-GRUNT",
+      "address": "0x56c09e954690d80c5728194f7eaf473737dc2180",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warmored-grunt-wgold.png"
+    },
+    {
+      "name": "wPIKE-ORC Token",
+      "symbol": "wPIKE-ORC",
+      "address": "0x491c739efd076655f7d8d0db545b7fb09ddf517f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wpike-orc-wgold.png"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
