@@ -66,10 +66,10 @@ const config: MenuEntry[] = [
     label: 'Info',
     icon: 'InfoIcon',
     items: [
-      {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51',
-      },
+      // {
+      //   label: 'PancakeSwap',
+      //   href: 'https://pancakeswap.info/token/0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51',
+      // },
       // {
       //   label: 'CoinGecko',
       //   href: 'https://www.coingecko.com/en/coins/goose-finance',
@@ -80,7 +80,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51',
+        href: `https://app.astrotools.io/pancake-pair-explorer/0xab6Ddad53513f9F0b57778A2ebf8aA81FBaCc8c9`,
       },
     ],
   },
