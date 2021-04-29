@@ -89,6 +89,22 @@
       "logoURI": "http://exchange.apwars.farm/images/apwars/wpike-orc-wgold.png"
     },
     {
+      "name": "wWIZARD Token",
+      "symbol": "wWIZARD",
+      "address": "0x1225C7999483544c7859fE5A23c9Be70d14d5378",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wwizard-wgold.png"
+    },
+    {
+      "name": "wSHAMAN Token",
+      "symbol": "wSHAMAN",
+      "address": "0x10eAAC888b70aBE542a50b787ABe7f94b8989CB7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wshaman-wgold.png"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
