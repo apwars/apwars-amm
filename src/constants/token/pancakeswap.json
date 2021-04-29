@@ -65,8 +65,8 @@
 
     },
     {
-      "name": "wCROSSBOW-MAN Token",
-      "symbol": "wCROSSBOW-MAN",
+      "name": "wCROSSBOWMAN Token",
+      "symbol": "wCROSSBOWMAN",
       "address": "0xa0ecf9c7114effb43440b95d54e09a2a67331236",
       "chainId": 56,
       "decimals": 18,
