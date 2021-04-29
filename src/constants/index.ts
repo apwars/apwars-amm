@@ -18,6 +18,10 @@ export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423
 export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
 export const WGOLD = new Token(ChainId.MAINNET, '0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51', 18, 'WGOLD', 'wGOLD Token')
+export const wPIKEORC = new Token(ChainId.MAINNET, '0x491c739efd076655f7D8D0DB545b7fb09DdF517f', 18, 'wPIKE-ORC', 'wPIKE-ORC Token')
+export const wARMOREDGRUNT = new Token(ChainId.MAINNET, '0x56c09E954690d80C5728194f7eAf473737Dc2180', 18, 'wARMORED-GRUNT', 'wARMORED-GRUNT Token')
+export const wCROSSBOWMAN = new Token(ChainId.MAINNET, '0xA0ecF9c7114eFFB43440B95D54e09A2a67331236', 18, 'wCROSSBOWMAN', 'wCROSSBOWMAN Token')
+export const wARMOREDWARRIOR = new Token(ChainId.MAINNET, '0xd67761dF2b76eE251d48816691f5ff7728d94DAa', 18, 'wARMORED-WARRIOR', 'wARMORED-WARRIOR Token')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
@@ -49,7 +53,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, WGOLD]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, WGOLD, wARMOREDGRUNT, wPIKEORC, wCROSSBOWMAN, wARMOREDWARRIOR]
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
