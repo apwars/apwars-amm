@@ -1,7 +1,6 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit';
+import { MenuEntry } from '@pancakeswap-libs/uikit'
 
-const APWARS_URL = process.env.REACT_APP_APWARS_URL;
-
+const APWARS_URL = process.env.REACT_APP_APWARS_URL
 
 const config: MenuEntry[] = [
   {
@@ -78,6 +77,10 @@ const config: MenuEntry[] = [
       //   label: 'CoinMarketCap',
       //   href: 'https://coinmarketcap.com/currencies/goose-finance/',
       // },
+      {
+        label: 'Wars',
+        href: 'https://app.apwars.farm/wars',
+      },
       {
         label: 'AstroTools',
         href: `https://app.astrotools.io/pancake-pair-explorer/0xab6Ddad53513f9F0b57778A2ebf8aA81FBaCc8c9`,
