@@ -105,6 +105,14 @@
       "logoURI": "http://exchange.apwars.farm/images/apwars/wshaman-wgold.png"
     },
     {
+      "name": "wCOURAGE Token",
+      "symbol": "wCOURAGE",
+      "address": "0x5f51a3ce7f2233777328866f477e86a91ca9ddec",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wcourage-wgold.png"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
