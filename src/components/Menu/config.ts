@@ -27,22 +27,35 @@ const config: MenuEntry[] = [
     label: 'Farms',
     icon: 'FarmIcon',
     href: `${APWARS_URL}/farms`,
+
     items: [
       {
         label: 'Gold Mine',
-        href: `${APWARS_URL}/farms/tier/0`,
+        href: `${APWARS_URL}/farms/tier/0/All`,
+      },
+      {
+        label: 'Gold Mine - Barracks',
+        href: `${APWARS_URL}/farms/tier/0/Barracks`,
+      },
+      {
+        label: 'Gold Mine - Armory',
+        href: `${APWARS_URL}/farms/tier/0/Armory`,
+      },
+      {
+        label: 'Gold Mine - Arcane Library',
+        href: `${APWARS_URL}/farms/tier/0/ArcaneLibrary`,
       },
       {
         label: 'Barracks',
-        href: `${APWARS_URL}/farms/tier/1`,
+        href: `${APWARS_URL}/farms/tier/1/All`,
       },
       {
         label: 'Armory',
-        href: `${APWARS_URL}/farms/tier/2`,
+        href: `${APWARS_URL}/farms/tier/2/All`,
       },
       {
         label: 'Arcane Library',
-        href: `${APWARS_URL}/farms/tier/3`,
+        href: `${APWARS_URL}/farms/tier/3/All`,
       },
     ],
   },
