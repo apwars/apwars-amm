@@ -112,7 +112,7 @@
       "address": "0xb5d488dc4DE64A6a968D8f317DB8DE2cDBF52828",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wskeletonwarrior-wgold.png?image=1"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wskeletonwarrior-wgold.png?image=1"
     },
     {
       "name": "wHOUND Token",
@@ -120,7 +120,7 @@
       "address": "0x4D21177Bf8a0F9cfAca6d0f568Ff3e79a121B106",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/whound-wgold.png?image=1"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/whound-wgold.png?image=1"
     },
     {
       "name": "Goose Golden Egg",
