@@ -123,6 +123,22 @@
       "logoURI": "http://exchange.apwars.farm/images/apwars/whound-wgold.png?image=1"
     },
     {
+      "name": "wUNDEAD-ARCHER Token",
+      "symbol": "wUNDEAD-ARCHER",
+      "address": "0xd048cDf2e870E60D46527463a14aEFC0377D754c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wundead-archer-wgold.png?image=1"
+    },
+    {
+      "name": "wUNDEAD-PIKEMAN Token",
+      "symbol": "wUNDEAD-PIKEMAN",
+      "address": "0x8b394cfAeBA9812801C92388570C95208Ad1300D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wundead-pikeman-wgold.png?image=1"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
