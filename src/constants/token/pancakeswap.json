@@ -139,6 +139,14 @@
       "logoURI": "http://exchange.apwars.farm/images/apwars/wundead-pikeman-wgold.png?image=1"
     },
     {
+      "name": "wWITCH Token",
+      "symbol": "wWITCH",
+      "address": "0x2a63DDDD2c0ba10F465080a06563aF3acb5d1d3c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wwitch-wgold.png?image=1"
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
