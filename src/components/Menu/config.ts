@@ -6,7 +6,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: `${APWARS_URL}`,
+    href: `${APWARS_URL}?showFarms=true`,
   },
   {
     label: 'Trade',
@@ -26,36 +26,36 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: `${APWARS_URL}/farms`,
+    href: `${APWARS_URL}/farms?showFarms=true`,
 
     items: [
       {
         label: 'Gold Mine',
-        href: `${APWARS_URL}/farms/tier/0/All`,
+        href: `${APWARS_URL}/farms/tier/0/All?showFarms=true`,
       },
       {
         label: 'Gold Mine - Barracks',
-        href: `${APWARS_URL}/farms/tier/0/Barracks`,
+        href: `${APWARS_URL}/farms/tier/0/Barracks?showFarms=true`,
       },
       {
         label: 'Gold Mine - Armory',
-        href: `${APWARS_URL}/farms/tier/0/Armory`,
+        href: `${APWARS_URL}/farms/tier/0/Armory?showFarms=true`,
       },
       {
         label: 'Gold Mine - Arcane Library',
-        href: `${APWARS_URL}/farms/tier/0/ArcaneLibrary`,
+        href: `${APWARS_URL}/farms/tier/0/ArcaneLibrary?showFarms=true`,
       },
       {
         label: 'Barracks',
-        href: `${APWARS_URL}/farms/tier/1/All`,
+        href: `${APWARS_URL}/farms/tier/1/All?showFarms=true`,
       },
       {
         label: 'Armory',
-        href: `${APWARS_URL}/farms/tier/2/All`,
+        href: `${APWARS_URL}/farms/tier/2/All?showFarms=true`,
       },
       {
         label: 'Arcane Library',
-        href: `${APWARS_URL}/farms/tier/3/All`,
+        href: `${APWARS_URL}/farms/tier/3/All?showFarms=true`,
       },
     ],
   },
@@ -67,12 +67,12 @@ const config: MenuEntry[] = [
   // {
   //   label: 'Nests',
   //   icon: 'PoolIcon',
-  //   href: `${APWARS_URL}/nests`,
+  //   href: `${APWARS_URL}/nests?showFarms=true`,
   // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: `${APWARS_URL}/lotter`'
+  //   href: `${APWARS_URL}/lotter?showFarms=true`'
   // },
   {
     label: 'Info',
