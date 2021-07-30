@@ -152,7 +152,7 @@
       "address": "0x5898d096deC52527A2900F7482492C71107B7520",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wHORSEMAN.png?image=1"
+      "logoURI": "http://exchange.apwars.farm/apwars/wHORSEMAN.png?image=1"
     },
     {
       "name": "wWARG Token",
@@ -160,7 +160,7 @@
       "address": "0xc15bE042471eBAC1908d7bD93648161A1B82Ee3d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wWARG.png?image=1"
+      "logoURI": "http://exchange.apwars.farm/apwars/wWARG.png?image=1"
     },
     {
       "name": "wDEATH-KNIGHT Token",
@@ -168,7 +168,7 @@
       "address": "0x62876880fd6fe05285ea758aac09d68a90337f51",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wDEATH-KNIGHT.png?image=1"
+      "logoURI": "http://exchange.apwars.farm/apwars/wDEATH-KNIGHT.png?image=1"
     },
     {
       "name": "WBNB Token",
