@@ -46,6 +46,10 @@ const config: MenuEntry[] = [
         href: `${APWARS_URL}/farms/tier/0/ArcaneLibrary?showFarms=true`,
       },
       {
+        label: 'Gold Mine - Stables - Mounted units',
+        href: `${APWARS_URL}/farms/tier/0/Stables?showFarms=true`,
+      },
+      {
         label: 'Barracks',
         href: `${APWARS_URL}/farms/tier/1/All?showFarms=true`,
       },
