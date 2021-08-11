@@ -114,7 +114,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://docs.apwars.farm',
+        href: 'https://apwars.farm/docs',
       },
       {
         label: 'Blog',
