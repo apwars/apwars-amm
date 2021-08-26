@@ -64,7 +64,8 @@
       "address": "0x5898d096deC52527A2900F7482492C71107B7520",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/apwars/wHORSEMAN.png?image=2"
+      "logoURI": "http://localhost:3000/images/apwars/wHORSEMAN.png?image=2"
+      
     },
     {
       "name": "wPIKE-ELF Token",
