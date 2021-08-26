@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "http://localhost:3000/images/pancakeswap.png?image=2",
+  "logoURI": "http://exchange.apwars.farm/images/pancakeswap.png?image=2",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "address": "0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/egg/9.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/egg/9.png?image=2"
     },
     {
       "name": "wARRIOR Token",
@@ -24,7 +24,7 @@
       "address": "0x54f653f539a78d3db0e0d3b166cf32c4f6cc5fb6",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wwarrior-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wwarrior-wgold.png?image=2"
     },
     {
       "name": "wARCHER Token",
@@ -32,7 +32,7 @@
       "address": "0xAA2E03E7838148ce9FAd6Ce4C00275D89127A03e",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/warcher-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warcher-wgold.png?image=2"
     },
     {
       "name": "wARMORED-WARRIOR Token",
@@ -40,7 +40,7 @@
       "address": "0xd67761df2b76ee251d48816691f5ff7728d94daa",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/warmored-warrior-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warmored-warrior-wgold.png?image=2"
     },
     {
       "name": "wCROSSBOWMAN Token",
@@ -48,7 +48,7 @@
       "address": "0xa0ecf9c7114effb43440b95d54e09a2a67331236",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wcrossbowman-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wcrossbowman-wgold.png?image=2"
     },
     {
       "name": "wWIZARD Token",
@@ -56,7 +56,7 @@
       "address": "0x1225C7999483544c7859fE5A23c9Be70d14d5378",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wwizard-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wwizard-wgold.png?image=2"
     },
     {
       "name": "wHORSEMAN Token",
@@ -64,7 +64,7 @@
       "address": "0x5898d096deC52527A2900F7482492C71107B7520",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wHORSEMAN.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wHORSEMAN.png?image=2"
       
     },
     {
@@ -73,7 +73,7 @@
       "address": "0xa248284fB4E3E58400644dc4Cd37410F8AB31266",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wpike-elf.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wpike-elf.png?image=2"
     },
     {
       "name": "wELVEN-ARCHER Token",
@@ -81,7 +81,7 @@
       "address": "0x804e7030F932CA06DEe7bC08051f1123898ceF5d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/welven-archer.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/welven-archer.png?image=2"
     },
     {
       "name": "wGRUNT Token",
@@ -89,7 +89,7 @@
       "address": "0xd7544Fe7668f3dfb7AD21F9E02D7A51e116b6D75",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wgrunt-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wgrunt-wgold.png?image=2"
     },
     {
       "name": "wORC-ARCHER Token",
@@ -97,7 +97,7 @@
       "address": "0x934e11a44b2e817fe9bd6f337ef21bd35e46080e",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/worc-archer-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/apwars/worc-archer-wgold.png?image=2"
     },
     {
       "name": "wPIKE-ORC Token",
@@ -105,7 +105,7 @@
       "address": "0x491c739efd076655f7d8d0db545b7fb09ddf517f",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wpike-orc-wgold.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wpike-orc-wgold.png?image=2"
     },
     {
       "name": "wARMORED-GRUNT Token",
