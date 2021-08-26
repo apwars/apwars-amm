@@ -1,0 +1,230 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2021-03-17T09:56:23Z",
+  "version": {
+    "major": 2,
+    "minor": 6,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/pancakeswap.png?image=2?image=2",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "wGOLD Token",
+      "symbol": "wGOLD",
+      "address": "0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/egg/9.png?image=2?image=2"
+    },
+    {
+      "name": "wARRIOR Token",
+      "symbol": "wWARRIOR",
+      "address": "0x54f653f539a78d3db0e0d3b166cf32c4f6cc5fb6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wwarrior-wgold.png?image=2?image=2"
+    },
+    {
+      "name": "wARCHER Token",
+      "symbol": "wARCHER",
+      "address": "0xAA2E03E7838148ce9FAd6Ce4C00275D89127A03e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/warcher-wgold.png?image=2?image=2"
+    },
+    {
+      "name": "wGRUNT Token",
+      "symbol": "wGRUNT",
+      "address": "0xd7544Fe7668f3dfb7AD21F9E02D7A51e116b6D75",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wgrunt-wgold.png?image=2?image=2"
+    },
+    {
+      "name": "wORC-ARCHER Token",
+      "symbol": "wORC-ARCHER",
+      "address": "0x934e11a44b2e817fe9bd6f337ef21bd35e46080e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/worc-archer-wgold.png?image=2?image=2"
+    },
+    {
+      "name": "wARMORED-WARRIOR Token",
+      "symbol": "wARMORED-WARRIOR",
+      "address": "0xd67761df2b76ee251d48816691f5ff7728d94daa",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/warmored-warrior-wgold.png?image=2?image=2"
+    },
+    {
+      "name": "wCROSSBOWMAN Token",
+      "symbol": "wCROSSBOWMAN",
+      "address": "0xa0ecf9c7114effb43440b95d54e09a2a67331236",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wcrossbowman-wgold.png?image=2"
+    },
+    {
+      "name": "wARMORED-GRUNT Token",
+      "symbol": "wARMORED-GRUNT",
+      "address": "0x56c09e954690d80c5728194f7eaf473737dc2180",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/warmored-grunt-wgold.png?image=2"
+    },
+    {
+      "name": "wPIKE-ORC Token",
+      "symbol": "wPIKE-ORC",
+      "address": "0x491c739efd076655f7d8d0db545b7fb09ddf517f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wpike-orc-wgold.png?image=2"
+    },
+    {
+      "name": "wWIZARD Token",
+      "symbol": "wWIZARD",
+      "address": "0x1225C7999483544c7859fE5A23c9Be70d14d5378",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wwizard-wgold.png?image=2"
+    },
+    {
+      "name": "wSHAMAN Token",
+      "symbol": "wSHAMAN",
+      "address": "0x10eAAC888b70aBE542a50b787ABe7f94b8989CB7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wshaman-wgold.png?image=2"
+    },
+    {
+      "name": "wCOURAGE Token",
+      "symbol": "wCOURAGE",
+      "address": "0x5f51a3ce7f2233777328866f477e86a91ca9ddec",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wCOURAGE.png?image=2"
+    },
+    {
+      "name": "wSKELETON-WARRIOR Token",
+      "symbol": "wSKELETON-WARRIOR",
+      "address": "0xb5d488dc4DE64A6a968D8f317DB8DE2cDBF52828",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wskeletonwarrior-wgold.png?image=2"
+    },
+    {
+      "name": "wHOUND Token",
+      "symbol": "wHOUND",
+      "address": "0x4D21177Bf8a0F9cfAca6d0f568Ff3e79a121B106",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/whound-wgold.png?image=2"
+    },
+    {
+      "name": "wUNDEAD-ARCHER Token",
+      "symbol": "wUNDEAD-ARCHER",
+      "address": "0xd048cDf2e870E60D46527463a14aEFC0377D754c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wundead-archer-wgold.png?image=2"
+    },
+    {
+      "name": "wUNDEAD-PIKEMAN Token",
+      "symbol": "wUNDEAD-PIKEMAN",
+      "address": "0x8b394cfAeBA9812801C92388570C95208Ad1300D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wundead-pikeman-wgold.png?image=2"
+    },
+    {
+      "name": "wWITCH Token",
+      "symbol": "wWITCH",
+      "address": "0x2a63DDDD2c0ba10F465080a06563aF3acb5d1d3c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wwitch-wgold.png?image=2"
+    },
+    {
+      "name": "wHORSEMAN Token",
+      "symbol": "wHORSEMAN",
+      "address": "0x5898d096deC52527A2900F7482492C71107B7520",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wHORSEMAN.png?image=2"
+    },
+    {
+      "name": "wWARG Token",
+      "symbol": "wWARG",
+      "address": "0xc15bE042471eBAC1908d7bD93648161A1B82Ee3d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wWARG.png?image=2"
+    },
+    {
+      "name": "wDEATH-KNIGHT Token",
+      "symbol": "wDEATH-KNIGHT",
+      "address": "0x62876880fd6fe05285ea758aac09d68a90337f51",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wDEATH-KNIGHT.png?image=2"
+    },
+    {
+      "name": "wPIKE-ELF Token",
+      "symbol": "wPIKE-ELF",
+      "address": "0xa248284fB4E3E58400644dc4Cd37410F8AB31266",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/wpike-elf.png?image=2"
+    },
+    {
+      "name": "wELVEN-ARCHER Token",
+      "symbol": "wELVEN-ARCHER",
+      "address": "0x804e7030F932CA06DEe7bC08051f1123898ceF5d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://deploy-preview-4--apwars-amm.netlify.app/images/apwars/welven-archer.png?image=2"
+    },
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png?image=2"
+    },
+    {
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png?image=2"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059ff775485246999027b3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x55d398326f99059ff775485246999027b3197955.png?image=2"
+    },
+    {
+      "name": "Dai Token",
+      "symbol": "DAI",
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png?image=2"
+    },
+    {
+      "name": "Binance-Peg USD Coin",
+      "symbol": "USDC",
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png?image=2"
+    }
+  ]
+}
