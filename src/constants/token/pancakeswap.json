@@ -193,7 +193,7 @@
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://exchange.apwars.farm/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png?image=2"
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png?image=2"
     },
     {
       "name": "BUSD Token",
@@ -201,7 +201,7 @@
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://exchange.apwars.farm/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png?image=2"
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png?image=2"
     },
     {
       "name": "Tether USD",
@@ -209,7 +209,7 @@
       "address": "0x55d398326f99059ff775485246999027b3197955",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0x55d398326f99059ff775485246999027b3197955.png?image=2"
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x55d398326f99059ff775485246999027b3197955.png?image=2"
     },
     {
       "name": "Dai Token",
@@ -217,7 +217,7 @@
       "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png?image=2"
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png?image=2"
     },
     {
       "name": "Binance-Peg USD Coin",
@@ -225,7 +225,7 @@
       "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png?image=2"
+      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png?image=2"
     }
   ]
 }
