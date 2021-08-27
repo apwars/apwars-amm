@@ -187,6 +187,22 @@
       "logoURI": "http://exchange.apwars.farm/images/apwars/welven-archer.png?image=2"
     },
     {
+      "name": "wARMORED-ELF Token",
+      "symbol": "wARMORED-ELF",
+      "address": "0xF35e1Bd15E49651ad76aB0A4B9ce93F6e9850f7F",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/warmored-elf.png?image=2"
+    },
+    {
+      "name": "wBLADEMASTER Token",
+      "symbol": "wBLADEMASTER",
+      "address": "0xE7Cb07032a9b9150a25249709C50b9BD923E445e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wblademaster.png?image=2"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
