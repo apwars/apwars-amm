@@ -17,21 +17,82 @@ export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff7754852469990
 export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423a2edccbd6', 18, 'EOS', 'EOS Token')
 export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
-export const WGOLD = new Token(ChainId.MAINNET, '0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51', 18, 'WGOLD', 'wGOLD Token')
-export const wPIKEORC = new Token(ChainId.MAINNET, '0x491c739efd076655f7D8D0DB545b7fb09DdF517f', 18, 'wPIKE-ORC', 'wPIKE-ORC Token')
-export const wARMOREDGRUNT = new Token(ChainId.MAINNET, '0x56c09E954690d80C5728194f7eAf473737Dc2180', 18, 'wARMORED-GRUNT', 'wARMORED-GRUNT Token')
-export const wCROSSBOWMAN = new Token(ChainId.MAINNET, '0xA0ecF9c7114eFFB43440B95D54e09A2a67331236', 18, 'wCROSSBOWMAN', 'wCROSSBOWMAN Token')
-export const wARMOREDWARRIOR = new Token(ChainId.MAINNET, '0xd67761dF2b76eE251d48816691f5ff7728d94DAa', 18, 'wARMORED-WARRIOR', 'wARMORED-WARRIOR Token')
+export const WGOLD = new Token(
+  ChainId.MAINNET,
+  '0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51',
+  18,
+  'WGOLD',
+  'wGOLD Token'
+)
+export const wPIKEORC = new Token(
+  ChainId.MAINNET,
+  '0x491c739efd076655f7D8D0DB545b7fb09DdF517f',
+  18,
+  'wPIKE-ORC',
+  'wPIKE-ORC Token'
+)
+export const wARMOREDGRUNT = new Token(
+  ChainId.MAINNET,
+  '0x56c09E954690d80C5728194f7eAf473737Dc2180',
+  18,
+  'wARMORED-GRUNT',
+  'wARMORED-GRUNT Token'
+)
+export const wCROSSBOWMAN = new Token(
+  ChainId.MAINNET,
+  '0xA0ecF9c7114eFFB43440B95D54e09A2a67331236',
+  18,
+  'wCROSSBOWMAN',
+  'wCROSSBOWMAN Token'
+)
+export const wARMOREDWARRIOR = new Token(
+  ChainId.MAINNET,
+  '0xd67761dF2b76eE251d48816691f5ff7728d94DAa',
+  18,
+  'wARMORED-WARRIOR',
+  'wARMORED-WARRIOR Token'
+)
+export const wUNDEADARCHER = new Token(
+  ChainId.MAINNET,
+  '0xd048cDf2e870E60D46527463a14aEFC0377D754c',
+  18,
+  'wUNDEAD-ARCHER',
+  'wUNDEAD-ARCHER Token'
+)
+
+export const wUNDEADPIKEMAN = new Token(
+  ChainId.MAINNET,
+  '0x8b394cfAeBA9812801C92388570C95208Ad1300D',
+  18,
+  'wUNDEAD-PIKEMAN',
+  'wUNDEAD-PIKEMAN Token'
+)
+
+export const wARMOREDELF = new Token(
+  ChainId.MAINNET,
+  '0xF35e1Bd15E49651ad76aB0A4B9ce93F6e9850f7F',
+  18,
+  'wARMORED-ELF',
+  'wARMORED-ELF Token'
+)
+
+export const wBLADEMASTER = new Token(
+  ChainId.MAINNET,
+  '0xE7Cb07032a9b9150a25249709C50b9BD923E445e',
+  18,
+  'wBLADEMASTER',
+  'wBLADEMASTER Token'
+)
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
-  [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]]
+  [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]],
 }
 
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, WGOLD]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, WGOLD],
 }
 
 /**
@@ -40,32 +101,46 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
  */
 export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: Token[] } } = {
   [ChainId.MAINNET]: {
-    [ETH.address]: [DAI, WETH[ChainId.MAINNET]]
-  }
+    [ETH.address]: [DAI, WETH[ChainId.MAINNET]],
+  },
 }
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT]
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, WGOLD, wARMOREDGRUNT, wPIKEORC, wCROSSBOWMAN, wARMOREDWARRIOR]
+  [ChainId.MAINNET]: [
+    ...WETH_ONLY[ChainId.MAINNET],
+    DAI,
+    BUSD,
+    USDT,
+    WGOLD,
+    wARMOREDGRUNT,
+    wPIKEORC,
+    wCROSSBOWMAN,
+    wARMOREDWARRIOR,
+    wUNDEADARCHER,
+    wUNDEADPIKEMAN,
+    wARMOREDELF,
+    wBLADEMASTER,
+  ],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
       new Token(ChainId.MAINNET, '0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51', 18, 'wGOLD', 'wGOLD Token'),
-      new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
+      new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
     ],
     [BUSD, USDT],
     [BUSD, WGOLD],
-    [DAI, USDT]
-  ]
+    [DAI, USDT],
+  ],
 }
 
 export interface WalletInfo {
@@ -87,7 +162,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     iconName: 'binance.svg',
     description: 'Easy-to-use browser extension.',
     href: null,
-    color: '#E8831D'
+    color: '#E8831D',
   },
   INJECTED: {
     connector: injected,
@@ -96,7 +171,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Injected web3 provider.',
     href: null,
     color: '#010101',
-    primary: true
+    primary: true,
   },
   METAMASK: {
     connector: injected,
@@ -104,8 +179,8 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     iconName: 'metamask.png',
     description: 'Easy-to-use browser extension.',
     href: null,
-    color: '#E8831D'
-  }
+    color: '#E8831D',
+  },
   // WALLET_CONNECT: {
   //   connector: walletconnect,
   //   name: 'WalletConnect',

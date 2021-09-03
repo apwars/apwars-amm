@@ -208,7 +208,7 @@
       "address": "0xA7439A291251F4Dd250fE3B3f65FbE537fE633bb",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "http://localhost:3000/images/apwars/wblademaster.png?image=2"
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wblademaster.png?image=2"
     },
     {
       "name": "WBNB Token",
