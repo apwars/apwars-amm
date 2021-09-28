@@ -96,7 +96,6 @@ export default function TokenWarningModal({
 }) {
   const [understandChecked, setUnderstandChecked] = useState(false)
   const toggleUnderstand = useCallback(() => setUnderstandChecked((uc) => !uc), [])
-
   const handleDismiss = useCallback(() => null, [])
   return (
     <Modal isOpen={isOpen} onDismiss={handleDismiss} maxHeight={90}>
