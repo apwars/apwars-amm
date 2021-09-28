@@ -53,29 +53,38 @@ const Swap = () => {
     useCurrency(loadedUrlParams?.inputCurrencyId),
     useCurrency(loadedUrlParams?.outputCurrencyId),
   ]
-  const [setDismissTokenWarning, dismissTokenWarning] = useState<boolean>(false)
-  const dismissTokenWarning = useState<boolean>(verifyTokensOnList())
-  const [isSyrup, setIsSyrup] = useState<boolean>(false)
-  const [syrupTransactionType, setSyrupTransactionType] = useState<string>('')
+
   const urlLoadedTokens: Token[] = useMemo(
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]
   )
 
-
   function verifyTokensOnList () {
     let value = false
     if (urlLoadedTokens.length > 0) {
       for (let key = 0; key < listTrustworthlyTokens.length; key++) {
-        if (urlLoadedTokens[0].symbol === listTrustworthlyTokens[key].name) {
+        if (urlLoadedTokens[0].address === listTrustworthlyTokens[key].address) {
+          console.log(true)
           value = true
+          break
         } else {
           value = false
         }
       }
     }
+    console.log("value", value)
     return value
   } 
+  let defaultDismiss = true
+
+  if (loadedOutputCurrency?.adress === )
+
+  /* const [modelVar, setDismissTokenWarning] = useState<boolean>(false) */
+  
+  const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
+
+  const [isSyrup, setIsSyrup] = useState<boolean>(false)
+  const [syrupTransactionType, setSyrupTransactionType] = useState<string>('')
 
   const handleConfirmTokenWarning = useCallback(() => {
     setDismissTokenWarning(true)
