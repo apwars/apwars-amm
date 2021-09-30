@@ -60,9 +60,7 @@ const Swap = () => {
     () => {
       return [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => {
         if (loadedOutputCurrency && c?.address !== undefined && c?.address !== null) {
-
           if (listTrustworthlyTokens.find(token => token.address.toUpperCase() === c.address?.toUpperCase())) {
-
             setDismissTokenWarning(true)
           }
         }
@@ -72,7 +70,7 @@ const Swap = () => {
     [loadedInputCurrency, loadedOutputCurrency]
   )
 
-  const handleConfirmTokenWarning = useCallback(() => {
+  const handleConfirmTokenWarning = useCallback(() => { 
     setDismissTokenWarning(true)
   }, [])
 
