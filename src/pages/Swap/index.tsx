@@ -59,10 +59,14 @@ const Swap = () => {
   const urlLoadedTokens: Token[] = useMemo(
     () => {
       return [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => {
-        if (listTrustworthlyTokens.find(token => token.symbol === c?.symbol)) {
-          return false
+        if (loadedOutputCurrency && c?.address !== undefined && c?.address !== null) {
+
+          if (listTrustworthlyTokens.find(token => token.address.toUpperCase() === c.address?.toUpperCase())) {
+
+            setDismissTokenWarning(true)
+          }
         }
-        return c instanceof Token 
+        return c instanceof Token
       }) ?? []
     },
     [loadedInputCurrency, loadedOutputCurrency]
