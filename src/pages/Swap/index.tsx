@@ -39,6 +39,10 @@ import PageHeader from 'components/PageHeader'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import AppBody from '../AppBody'
 
+import ListTokens from '../../constants/token/pancakeswap.json'
+
+const listTrustworthlyTokens = ListTokens.tokens
+
 const { main: Main } = TYPE
 
 const Swap = () => {
@@ -53,10 +57,20 @@ const Swap = () => {
   const [isSyrup, setIsSyrup] = useState<boolean>(false)
   const [syrupTransactionType, setSyrupTransactionType] = useState<string>('')
   const urlLoadedTokens: Token[] = useMemo(
-    () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
+    () => {
+      return [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => {
+        if (loadedOutputCurrency && c?.address !== undefined && c?.address !== null) {
+          if (listTrustworthlyTokens.find(token => token.address.toUpperCase() === c.address?.toUpperCase())) {
+            setDismissTokenWarning(true)
+          }
+        }
+        return c instanceof Token
+      }) ?? []
+    },
     [loadedInputCurrency, loadedOutputCurrency]
   )
-  const handleConfirmTokenWarning = useCallback(() => {
+
+  const handleConfirmTokenWarning = useCallback(() => { 
     setDismissTokenWarning(true)
   }, [])
 
