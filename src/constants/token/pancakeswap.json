@@ -211,6 +211,14 @@
       "logoURI": "http://exchange.apwars.farm/images/apwars/wblademaster.png?image=2"
     },
     {
+      "name": "wELK-RIDER Token",
+      "symbol": "wELK-RIDER",
+      "address": "0x2e67BD04a28faD0d243d7f7Cd436027D41a68A25",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/welk-rider.png?image=2"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
