@@ -19,6 +19,14 @@
       "logoURI": "http://exchange.apwars.farm/images/egg/9.png?image=2?image=2"
     },
     {
+      "name": "wLAND Token",
+      "symbol": "wLAND",
+      "address": "0x2c6107c27a15d2c7f397d88d76257ea42c12f89f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "http://exchange.apwars.farm/images/apwars/wLAND.png?image=0"
+    },
+    {
       "name": "wARRIOR Token",
       "symbol": "wWARRIOR",
       "address": "0x54f653f539a78d3db0e0d3b166cf32c4f6cc5fb6",
